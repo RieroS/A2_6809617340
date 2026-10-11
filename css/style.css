@@ -33,6 +33,10 @@ main {
     text-align:center
 }
 
+#about-me p {
+    margin-bottom: 0.25rem;
+}
+
 #about-me .my-img {
     width: 100%;
     max-width: 200px;
@@ -71,6 +75,7 @@ section h3 {
 
 .portfolio-detail h4 {
     display: inline;
+    font-size: 1.1rem;
     font-weight: 600;
 }
 
@@ -80,9 +85,4 @@ section h3 {
 
 p {
     font-weight: 550;
-}
-
-p1 {
-    font-size: 0.9rem;
-    font-weight: 500;
 }
