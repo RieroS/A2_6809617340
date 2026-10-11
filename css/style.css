@@ -56,10 +56,12 @@ section h3 {
     margin-bottom: 8px;
 }
 
-.portfolio-detail {
-    margin-bottom: 12px;
-}
-
 .portfolio-detail h4 {
     display: inline;
 }
+
+.portfolio-detail {
+    margin-bottom: 6px;
+}
+
+
