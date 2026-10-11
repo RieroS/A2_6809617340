@@ -12,21 +12,15 @@ body {
     font-family: 'Sarabun', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1;
     background-color: #f4f7f6;
-    padding: 20px;
+    padding: 1rem;
 }
 
 header {
     background-color: #1e3d59;
     color: #ffffff;
     text-align: center;
-    padding: 20px ;
+    padding: 1rem;
     border-radius: 8px;
-}
-
-
-main {
-    max-width: 800px;
-    margin: 0 auto;
 }
 
 #about-me {
@@ -46,10 +40,10 @@ main {
 
 section {
     background: #ffffff;
-    padding: 25px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    padding: 1.5625rem;
+    margin-bottom: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.3125rem rgba(0,0,0,0.05);
 }
 
 header h1 {
@@ -85,4 +79,8 @@ section h3 {
 
 p {
     font-weight: 550;
+}
+
+.extra {
+    font-weight:1;
 }
