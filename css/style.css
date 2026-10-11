@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    font-size: clamp(14px, calc(12px + 0.5vw), 18px);
+}
+
 body {
     font-family: 'Sarabun', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1;
@@ -30,8 +34,10 @@ main {
     text-align:center
 }
 
-.my-img {
+#about-me .my-img {
+    width: 100%;
     max-width: 200px;
+    height: auto;
     margin-bottom: 15px;
 }
 
@@ -43,21 +49,30 @@ section {
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
+header h1 {
+    font-weight: 700 ;
+}
+
 section h2 {
     color: #1e3d59;
     border-bottom: 2px solid #ff6e40;
     padding-bottom: 8px;
     margin-bottom: 15px;
+    font-weight: 680;
 }
+
+
 
 section h3 {
     color: #17b978;
     margin-top: 15px;
     margin-bottom: 8px;
+    font-weight: 645;
 }
 
 .portfolio-detail h4 {
     display: inline;
+    font-weight: 600;
 }
 
 .portfolio-detail {
@@ -66,5 +81,5 @@ section h3 {
 
 p {
     margin-bottom: 5px;
+    font-weight: 550;
 }
-

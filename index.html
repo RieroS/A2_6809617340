@@ -11,47 +11,74 @@
 
 <body>
 
-    <header>
-        <h1>Individual Responsive Learning Portfolio</h1>
+    <header class="header-section">
+        <div class="container">
+            <h1>Individual Responsive Learning Portfolio</h1>
+        </div>
     </header>
 
-    <main>
-        <section id="about-me">
-            <img src="media/my_image.jpg" class="my-img">
-            <strong>
-                <p>นาย รวีโรจน์ เมฆชมภู รหัสนักศึกษา 6809617340</p>
-                
-            </strong>
-            <p>นักศึกษาสาขาวิชาวิทยาการคอมพิวเตอร์ ภาคปกติ</p>
-            
+    <main class="container py-4 py-md-5">
+        <section id="about-me" class="row align-items-center mb-4 mb-md-5">
+            <div class="col-12 col-md-4 text-center mb-3 mb-md-0">
+                <img src="media/my_image.jpg" class="my-img img-fluid">
+            </div>
+            <div class="col-12 col-md-8">
+                <strong>
+                    <p class="fs-5 fs-md-6">นาย รวีโรจน์ เมฆชมภู รหัสนักศึกษา 6809617340</p>
+                </strong>
+            </div>
         </section>
 
         <section id="My-portfolio">
-            <h2>My Portfolio</h2>
+            <h2 class="mb-4">My Portfolio</h2>
             
-            <h3>First Project</h3>
+            <div class="project-card mb-4">
+                <h3>First Project</h3>
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="portfolio-detail"><h4>Title : </h4><span>CS100 My First Learning Portfolio</span></div>
+                        <div class="portfolio-detail"><h4>Type: </h4><span>Course Assignment</span></div>
+                        <div class="portfolio-detail"><h4>Date: </h4><span>30 Aug 2026</span></div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="portfolio-detail"><h4>Role: </h4><span>Individual Developer</span></div>
+                        <div class="portfolio-detail"><h4>Skills: </h4><span>HTML, CSS, Semantic HTML</span></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="portfolio-detail"><h4>Description: </h4><span>พัฒนาเว็บไซต์Learning Portfolio หน้าเดียวด้วย HTML และ CSS</span></div>
+                        <div class="portfolio-detail"><h4>Reflection: </h4><span>ปัญหาจากงาน A1 คือไม่รู้จะเริ่มต้น และใช้โค้ดตกแต่งอย่างไร เลยทำตามสไลด์ ส่งผลให้เข้าใจการทำงานของแต่ละคำสั่งมากขึ้น ถ้าพัฒนาต่อ อยากปรับหน้าเว็บให้ adjust และเปลี่ยนดีไซน์ตามความเหมาะสมของขนาดจอ และตีมของอุปกรณ์ที่ใช้เปิดได้ครับ</span></div>
+                        <div class="portfolio-detail"><h4>Evidence: </h4><span><a href="https://github.com/RieroS/A1_6809617340.git" target="_blank">https://github.com/RieroS/A1_6809617340.git</a></span></div>
+                    </div>
+                </div>
+            </div>
 
-            <div class="portfolio-detail"><h4>Title : </h4><span>CS100 My First Learning Portfolio</span></div>
-            <div class="portfolio-detail"><h4>Type: </h4><span>Course Assignment</span></div>
-            <div class="portfolio-detail"><h4>Date: </h4><span>30 Aug 2026</span></div>
-            <div class="portfolio-detail"><h4>Role: </h4><span>Individual Developer</span></div>
-            <div class="portfolio-detail"><h4>Description: </h4><span>พัฒนาเว็บไซต์Learning Portfolio หน้าเดียวด้วย HTML และ CSS</span></div>
-            <div class="portfolio-detail"><h4>Skills: </h4><span>HTML, CSS, Semantic HTML</span></div>
-            <div class="portfolio-detail"><h4>Reflection: </h4><span>ตอนทำงาน A1 มีปัญหาเรื่องไม่รู้จะเริ่มต้น และตกแต่งอย่างไร พอลองค่อยๆทำตามสไลด์ก็ช่วยให้เข้าใจการทำงานของแต่ละคำสั่งมากขึ้น ถ้าพัฒนาต่อ อยากปรับหน้าเว็บให้ adjust และเปลี่ยนดีไซน์ตามความเหมาะสมของขนาดจอ และตีมของอุปกรณ์ที่ใช้เปิดได้ครับ</span></div>
-            <div class="portfolio-detail"><h4>Evidence: </h4><span><a href="https://github.com/RieroS/A1_6809617340.git" target="_blank">https://github.com/RieroS/A1_6809617340.git</a></span></div>
-
-             <h3>Second Project</h3>
-
-            <div class="portfolio-detail"><h4>Title : </h4><span>CS180 Group project</span></div>
-            <div class="portfolio-detail"><h4>Type: </h4><span>Course Assignment</span></div>
-            <div class="portfolio-detail"><h4>Date: </h4><span>29 May 2026</span></div>
-            <div class="portfolio-detail"><h4>Role: </h4><span>Mobile app lofi, hifi designer</span></div>
-            <div class="portfolio-detail"><h4>Description: </h4><span>ออกแบบเว็บไซต์สำหรับค้นหา จอง และเข้าร่วมกิจกรรมต่างๆ</span></div>
-            <div class="portfolio-detail"><h4>Skills: </h4><span>UI design on Figma</span></div>
-            <div class="portfolio-detail"><h4>Reflection: </h4><span>ได้ออกแบบหน้า ui พร้อมเรียนรู้ประโยชน์ของ ui แต่ละรูปแบบ ปัญหาที่สำคัญมาจากการสั่งงานไม่ชัดเจน จึงมีการปรับปรุงย่อยๆซ้ำๆเพื่อรับมือ หากพัฒนาต่ออยากออกแบบหน้สเว็บไซต์ให้สะอาดและใช้งานง่ายขึ้นครับ</span></div>
-            <div class="portfolio-detail"><h4>Evidence: </h4><span><a href="https://www.figma.com/design/h3FLW0ABaMjzbl0KBtuLwZ/CS180-Group-Project--Copy-?node-id=0-1&t=ePveQWoYLjhH5uho-1" target="_blank">https://www.figma.com/design/h3FLW0ABaMjzbl0KBtuLwZ/CS180-Group-Project--Copy-?node-id=0-1&t=ePveQWoYLjhH5uho-1</a></span></div>
+            <div class="project-card mb-4">
+                <h3>Second Project</h3>
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="portfolio-detail"><h4>Title : </h4><span>CS180 Group project</span></div>
+                        <div class="portfolio-detail"><h4>Type: </h4><span>Course Assignment</span></div>
+                        <div class="portfolio-detail"><h4>Date: </h4><span>29 May 2026</span></div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="portfolio-detail"><h4>Role: </h4><span>Mobile app lofi, hifi designer</span></div>
+                        <div class="portfolio-detail"><h4>Skills: </h4><span>UI design on Figma</span></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="portfolio-detail"><h4>Description: </h4><span>ออกแบบเว็บไซต์สำหรับค้นหา จอง และเข้าร่วมกิจกรรม</span></div>
+                        <div class="portfolio-detail"><h4>Reflection: </h4><span>ได้ออกแบบหน้า ui พร้อมเรียนรู้ประโยชน์ของ design แต่ละแบบ พร้อมเรียนรู้ที่จะแก้ปัญหาจากการสั่งงานหยาบๆที่ได้รับมา หากพัฒนาต่ออยากทำให้หน้าเว็บสะอาดและใช้งานง่าบขึ้นครับ</span></div>
+                        <div class="portfolio-detail"><h4>Evidence: </h4><span><a href="https://www.figma.com/design/h3FLW0ABaMjzbl0KBtuLwZ/CS180-Group-Project--Copy-?node-id=0-1&t=ePveQWoYLjhH5uho-1" target="_blank">https://www.figma.com/design</a></span></div>
+                    </div>
+                </div>
+            </div>
         </section> 
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
